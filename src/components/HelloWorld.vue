@@ -83,7 +83,7 @@
         <a-button :style="{ marginRight: '8px' }" @click="onClose">
           Cancel
         </a-button>
-        <a-button type="primary" @click="show">
+        <a-button type="primary" @click="createClass">
           Submit
         </a-button>
       </div>
@@ -130,7 +130,7 @@ export default {
     onClose () {
       this.visible = false
     },
-    show () {
+    createClass () {
       this.classes.push({
         className: this.className,
         Section: this.section,
