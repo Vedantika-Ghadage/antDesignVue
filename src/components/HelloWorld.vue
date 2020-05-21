@@ -106,7 +106,7 @@
       <a-icon key="rise" type="rise" />
       <a-icon key="edit" type="edit" />
       <a-icon key="folder" type="folder" />
-      <router-link to="/classes"><a-icon type="right-square" /></router-link>
+      <!-- <router-link to="/classes"><a-icon type="right-square" /></router-link> -->
     </template>
   </a-card>
       </a-col>

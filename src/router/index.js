@@ -11,7 +11,7 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/classes',
       name: 'HelloWorld',
       component: HelloWorld
     },
@@ -21,7 +21,7 @@ export default new Router({
       component: Todo
     },
     {
-      path: '/classes',
+      path: '/',
       name: 'Classes',
       component: Classes
     },
