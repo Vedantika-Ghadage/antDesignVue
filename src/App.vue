@@ -15,7 +15,7 @@
           <span><router-link to="/" class="text">Home</router-link></span>
         </a-menu-item>
         <a-menu-item key="2">
-          <a-icon type="home" />
+          <a-icon type="appstore" />
           <span><router-link to="/classes" class="text">Classes</router-link></span>
         </a-menu-item>
         <a-menu-item key="3">
